@@ -8,7 +8,7 @@ export class EstateTransactionQueryDto {
 
   @Type(() => Number)
   @IsInt()
-  prefCode: number;
+  prefectureCode: number;
 
   @Type(() => Number)
   @IsInt()
